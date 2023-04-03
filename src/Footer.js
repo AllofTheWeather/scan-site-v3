@@ -11,7 +11,7 @@ export default function Footer() {
                     {/*Right*/}
                     <div>
                     <a href="" className="me-4 text-reset">
-                        <i class="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"></i>
                     </a>
                     <a href="" className="me-4 text-reset">
                         <i className="fab fa-twitter"></i>

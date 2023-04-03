@@ -18,15 +18,15 @@ export const ContactUs = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <div className="form-group container mt-0 mb-3">
-        <label for="exampleFormControlInput1">Name</label>
+        <label htmlFor="exampleFormControlInput1">Name</label>
         <input type="name" className="form-control" id="exampleFormControlInput1" placeholder="name" />
       </div>
       <div className="form-group container mt-3 mb-3">
-        <label for="exampleFormControlInput2">Email address</label>
+        <label htmlFor="exampleFormControlInput2">Email address</label>
         <input type="email" className="form-control" id="exampleFormControlInput2" placeholder="name@example.com" />
       </div>
       <div className="form-group container mt-3 mb-3">
-        <label for="exampleFormControlTextarea1">Message</label>
+        <label htmlFor="exampleFormControlTextarea1">Message</label>
         <textarea className="form-control" id="messageArea1" rows="3"></textarea>
       </div>
       <div className="container mt-3 mb-3">
