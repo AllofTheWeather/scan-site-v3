@@ -1,8 +1,8 @@
 {
-  "name": "https://alloftheweather.github.io/scan-site-v3/",
-  "version": "0.1.0",
+  "name": "scan-site-v3",
+  "version": "0.1.1",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://alloftheweather.github.io/scan-site-v3/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
