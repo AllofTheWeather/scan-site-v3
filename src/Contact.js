@@ -1,31 +1,30 @@
+import React, { useRef } from 'react';
+import { ContactUs } from './ContactForm';
+
 export const Contact = () => {
 
-    const handleSubmit = () => {
-        return null
-    }
     return (
-        <>
-            <h1>Get in touch</h1>
-            <div className="center" >
-            <form id="contact-form" onSubmit={handleSubmit} method="POST">
-                <div className="form-group">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" className="center form-control" />
+        <>        
+        <div className="container mt-4">
+            <div className="bg-subtle m-5">
+                <div class="card">
+                <div class="card-header">
+                    <div className="container mt-3 mb-3">
+
+                    <h5 class="card-title display-5">Enquires</h5>
+                    <p class="card-text mt-3">Please get in touch if you have any questions</p>
+                    </div>
                 </div>
-                <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Email address</label>
-                    <input type="email" className="center form-control" aria-describedby="emailHelp" />
+                
+                <div class="card-body">
+                    <ContactUs />
                 </div>
-                <div className="form-group">
-                    <label htmlFor="message">Message</label>
-                    <textarea className="center form-control" rows="5"></textarea>
+                <div className="card-footer">
+                    <a href="/">return home</a>
                 </div>
-                <div className="center">
-                <button type="submit" className="button">Submit</button>
                 </div>
-            
-            </form>
             </div>
+        </div>
         </>
     )
 }
